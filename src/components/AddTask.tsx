@@ -9,13 +9,13 @@ function AddTask({ onAddTaskSubmit }) {
     <div className="space-y-4 p-6 rounded-md shadow bg-slate-400 flex flex-col">
       <Input
         type="text"
-        placeholder="Digite o título da tarefa"
+        placeholder="Type the task title"
         value={title}
         onChange={(event) => setTitle(event.target.value)}
       />
       <Input
         type="text"
-        placeholder="Digite a descrição da tarefa"
+        placeholder="Type the task description"
         value={description}
         onChange={(event) => setDescription(event.target.value)}
       />
